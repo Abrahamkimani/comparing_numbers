@@ -8,7 +8,7 @@ int main()
 {
     int num1; /* first number to be read from user */
     int num2;  /* second number to be read from user */
-    int num3;
+    int num3; /* this is the third number */ 
 
     printf("Enter two digits and I will tell you the relationship\n");
     printf("the relationship they satisfy\n");
@@ -48,15 +48,15 @@ int main()
     } /* End if */
 
     if ( num1%2!=0) {
-        printf( "%d is odd number\n", num1);
+        printf( "%d is an odd number\n", num1);
     } /* End if */
 
     if ( num2%2==0) {
-        printf( "%d is even number\n", num2);
+        printf( "%d is an even number\n", num2);
     } /* End if */
 
     if ( num2%2!=0) {
-        printf( "%d is odd number\n", num2);
+        printf( "%d is an odd number\n", num2);
     } /* End if */
 
 
